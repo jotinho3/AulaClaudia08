@@ -1,0 +1,42 @@
+/* seletor de todos os elementos '*'  */
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+
+
+.header {
+    width: 100%;
+    /* 100% da largura do container pai dele */
+    height: 110px;
+
+    background-color: rgb(115, 156, 74);
+
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+
+}
+
+.heroText {
+    width: 35%;
+
+    
+}
+
+.videoBg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+
